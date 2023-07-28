@@ -13,8 +13,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 position: relative;
-}
 
+}
 .logo_costas{
     width: 44px;
     height: 44px;
@@ -28,24 +28,25 @@ position: relative;
 }
 
 .lista-menu{
-    background-color: var(--branco);
     display: none;
     position: absolute;
     top: 100%;
+    background-color: var(--branco);
+    width: 60vw;
 }
 
 .container__botao{
+   
     display: none;
 }
 
 .container__botao:checked~ .lista-menu{
-    display: block;
+display: block;
 }
 
 .lista-menu_titulo{
     color: var(--amarelo);
 }
-
 .lista-menu_item{
     background: var(--roxo-degrade);
     -webkit-background-clip: text;
@@ -53,7 +54,6 @@ position: relative;
     background-clip: text;
     text-transform: uppercase;
 }
-
 .lista-menu_titulo, .lista-menu_item{
     padding: 1em;
     background-color: var(--branco);

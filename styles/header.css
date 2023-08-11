@@ -62,10 +62,18 @@ display: block;
 
 @media screen and (min-width:1024px) {
     .nome_titulo{
-        font-size: 30px;
-        color: darkslateblue;
-        display: block;
-        font-family:cursive
+    font-size: 30px;
+    color: darkslateblue;
+    display: block;
+    font-family:fantasy
     }
-    
-}
+    .lista-menu_titulo{
+        display: none;
+    }
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+ }
+
+        
+  
